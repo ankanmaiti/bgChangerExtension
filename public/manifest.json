@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "BG Changer",
+  "description": "simple bg changer extenion with react.",
+  "version": "0.1.0",
+
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  
+  "action": {
+    "default_popup": "index.html"
+  }
+}
